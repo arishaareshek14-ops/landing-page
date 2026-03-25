@@ -68,3 +68,62 @@ footer {
     padding: 20px;
     background: #ccc;
 }
+.hero{
+    height: 80vh;
+    background: url("https://images.unsplash.com/photo-1558788353-f76d92427f16") center/cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+}
+
+.hero-overlay{
+    background: rgba(0,0,0,0.4);
+    padding:40px;
+    text-align:center;
+    border-radius:10px;
+}
+
+.btn{
+    background:#e76f51;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:25px;
+}
+
+.features{
+    padding:60px;
+    text-align:center;
+    background:#f5f5f5;
+}
+
+.cards{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    margin-top:30px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    width:250px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.cta{
+    background:#e76f51;
+    color:white;
+    text-align:center;
+    padding:60px;
+}
+
+.btn-light{
+    background:white;
+    color:#e76f51;
+    padding:12px 25px;
+    border-radius:25px;
+    text-decoration:none;
+}
